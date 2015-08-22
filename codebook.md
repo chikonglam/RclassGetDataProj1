@@ -1,7 +1,7 @@
 #Data Dictionary - SmartPhone Activity Tracking Means
 
 ##Summary
-The dataset is a summary of the Human Activity Recognition Using Smartphones Data Set ( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones ).
+The output dataset is a summary of the Human Activity Recognition Using Smartphones Data Set ( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones ).
 It contains the means of each measurement for each activity and each subject.
 
 ##Columns
