@@ -16,7 +16,7 @@ Inside the R console:
 ```
 
 ## Output
-A summary dataframe where the rows are the data points for each subject-activity combination, and the columns are the averages of the measurements. Se codebook.md for more details.
+A summary dataframe where the rows are the data points for each subject-activity combination, and the columns are the averages of the measurements. See codebook.md for more details.
 
 ## Details
   The run_analysis() does the following:
