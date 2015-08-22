@@ -70,5 +70,6 @@ run_analysis <- function(){
     #getting the mean by Subjects and activities
     comboSubAct <- split(comboSig[, c(3:66)], list(comboSig$subject, comboSig$activity))
     means <- sapply(comboSubAct, colMeans)
+    means <- t(means)
     return( means )
 }
