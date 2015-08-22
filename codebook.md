@@ -35,4 +35,4 @@ Each row is a combination of test subject, and the activity.  Each row is named 
 
 ##References
 1. Human Activity Recognition Using Smartphones Data Set(Main page):  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-2. Direct link the the dataset:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+2. Direct link to the dataset:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
