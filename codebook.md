@@ -5,7 +5,7 @@ The dataset is a summary of the Human Activity Recognition Using Smartphones Dat
 It contains the means of each measurement for each activity and each subject.
 
 ##Rows
-Each row represents the average of each meansurement of the original dataset.  Each row is named similarly to the original measurement (with the special characters removed).  For example, *tBodyAccstdX* is the average of original tBodyAcc-std()-X (See the original features.txt, and features_info.txt).  In detail, the rows contain the averages of the mean and standard deviation of the following variable:  
+Each row represents the average of each meansurement of the original dataset.  Each row is named similarly to the original measurement (with the special characters removed).  For example, *tBodyAccstdX* is the average of original *tBodyAcc-std()-X* (See the original *features.txt*, and *features_info.txt* ).  In detail, the rows contain the averages of the mean and standard deviation of the following variable:  
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
