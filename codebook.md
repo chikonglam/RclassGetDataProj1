@@ -36,7 +36,7 @@ Each row is a combination of test subject, and the activity.  Each row is unique
 Therefore, there are 180 total rows.
 
 ##Units
-Because the original dataset has all its variables normalized, and therefore unitless, all the variables in the output dataset is also unitless.
+Because the original dataset has all its variables normalized, and therefore unitless, all the variables in the output dataset are also unitless.
 
 
 ##References
