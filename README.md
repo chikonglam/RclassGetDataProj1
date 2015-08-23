@@ -21,11 +21,11 @@ A summary dataframe where the rows are the data points for each subject-activity
 
 ## Details
   The run_analysis() does the following:
-* 1. Read the various files from the test dataset and the training dataset
+* 1. Reads the various files from the test dataset and the training dataset
 * 2. Extracts only the measurements on the mean and standard deviation for each measurement. (The rest are discarded)
-* 3. Providing descriptive activity names, and experiment subject information
+* 3. Provides descriptive activity names, and experiment subject information
 * 4. Merges the test dataset with the training dataset
-* 5. Output a summary dataframe where the rows are the data points for each subject-activity combination, and the columns are the averages of the retained measurements.
+* 5. Outputs a summary dataframe where the rows are the data points for each subject-activity combination, and the columns are the averages of the retained measurements.
 
 ##References
 1. Human Activity Recognition Using Smartphones Data Set(Main page):  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
