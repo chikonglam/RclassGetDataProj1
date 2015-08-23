@@ -1,5 +1,7 @@
 run_analysis <- function(){
-    
+    #includes
+    #---------
+    library(dplyr)
  
     #the training set
     #-----------------
@@ -67,9 +69,7 @@ run_analysis <- function(){
                             "fBodyBodyGyroJerkMagmean", "fBodyBodyGyroJerkMagstd"
                             )
     
-    #getting the mean by Subjects and activities
-    comboSubAct <- split(comboSig[, c(3:66)], list(comboSig$subject, comboSig$activity))
-    means <- sapply(comboSubAct, colMeans)
-    means <- t(means)
+    #getting the mean by subjects and activities
+    means <- comboSig %>% group_by(subject, activity) %>% summarise_each(funs(mean))
     return( means )
 }

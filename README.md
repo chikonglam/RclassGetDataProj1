@@ -6,6 +6,7 @@ The output dataset contains the averages of the mean and standard deviation of e
 
 ## Prerequisites
 * R version 3.2.1 or up is installed
+* dplyr R package 0.2 or up is installed
 * The full dataset( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ) is downloaded and extracted to the current working directory
 
 ## Usage
